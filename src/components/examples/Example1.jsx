@@ -1,9 +1,9 @@
 import React from 'react'
-import { MapContainer, TileLayer } from 'react-leaflet'
+import { MapContainer, TileLayer, Popup, Marker } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import './SimpleMap.css'
+import './Example1.css'
 
-const SimpleMap = () => {
+const Example1 = () => {
 
     return (
     <MapContainer 
@@ -27,4 +27,4 @@ const SimpleMap = () => {
 
 }
 
-export default SimpleMap;
+export default Example1
